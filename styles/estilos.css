@@ -1,0 +1,79 @@
+/* usas # para id y .selector tipo clase*
+Puedo combinar las clases, una despues de la otra
+margin: para separar lo que esta afuera de el
+padding: para separar lo que esta por dentro*/
+
+p {
+color: red;
+}
+
+a{
+    background-color: green;
+}
+
+#parrafo3 {
+    color: green;
+}
+.textoGris {
+    color: gray;
+}
+
+.textoNegro {
+    color: blue;
+}
+
+.fondorojo {
+    background-color: red;
+}
+
+.fondoamarillo {
+    background-color: yellow;
+}
+
+.textograndenegrita {
+    font-size: 10px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: narrower;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.tamañoimagen{
+    height: 200px;
+    width: auto;
+}
+
+.parrafopequeño {
+    width: 200px;
+}
+
+.contenedorconmargen {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border-bottom-color: 1px solid red;
+    padding: 10px;
+}
+
+.contenedordivsGrid {
+    border: 2px solid green;
+    display: grid;
+    grid-template-columns: 30% 30% 40%;
+    grid-template-rows: 30px 50px;
+    margin: 20px;
+}
+
+.divtest {
+    border: 1px solid red;
+    height: 50px;
+}
+
+.contenedordivsFlex {
+    border: 2px solid green;
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
