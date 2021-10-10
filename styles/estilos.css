@@ -12,6 +12,17 @@ ul {
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    background-color: white;
+    border-bottom: 1px solid gray;
+    box-shadow: 1px 1px gray;
+}
+
+.navbar > li {
+    display: flex;
+    align-items: center;
+    background-color: rgb(230, 228, 228);
+    box-shadow: 1px 1px gray;
+
 }
 
 .logo {
@@ -52,6 +63,9 @@ ul {
     border: 1px solid gray;
     padding: 4px;
     border-radius: 8px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .buscar:focus-within {
@@ -61,4 +75,27 @@ ul {
 .buscar > input{
     outline: none;
     border: 0px;
+}
+
+.iconobusqueda {
+    color: blue;
+}
+
+.breedcardcontainer {
+    display: flex;
+}
+
+.breedcard {
+    margin: 10px;
+}
+
+.contenedorimagen {
+    width: 240px;
+    height: 350px;
+    display: flex;
+}
+
+.contenedorimagen > img{
+    object-fit: cover;
+    width: 100%;
 }
