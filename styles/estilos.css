@@ -17,3 +17,17 @@ ul {
 .logo {
     height: 70px;
 }
+.mainbutton {
+    background-color: rgb(134, 218, 8);
+    color: white;
+    border: 0px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    box-shadow: 1px 1px green;
+}
+
+.mainbutton:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
