@@ -1,0 +1,17 @@
+-------------------- Auto-Git Log --------------------
+		Sat Oct 09 2021 23:45:56 GMT-0500 (Colombia Standard Time)
+------------------------------------------------------
+
+Modified files:
+* Index.html
+* styles/estilos.css
+
+
+Created files:
+* .gitignore
+
+
+Deleted files:
+
+
+Renamed files:
