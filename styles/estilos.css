@@ -20,6 +20,9 @@ ul {
 .navbar > li {
     display: flex;
     align-items: center;
+    background-color: rgb(230, 228, 228);
+    box-shadow: 1px 1px gray;
+
 }
 
 .logo {
